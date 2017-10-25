@@ -47,7 +47,7 @@
     "module_name": "mapbox_gl_native",
     "module_path": "./lib/",
     "host": "https://mapbox-node-binary.s3.amazonaws.com",
-    "remote_path": "./{name}/nightly/$DATE_STR",
+    "remote_path": "./{name}/nightly/{process.env.DATE_STR}",
     "package_name": "{node_abi}-{platform}-{arch}-{configuration}.tar.gz"
   }
 }
